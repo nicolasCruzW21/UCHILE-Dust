@@ -67,37 +67,6 @@ All captures use an **OS0** sensor. Dust is actively introduced in each recordin
 
 <a id="data-card"></a>
 
-### Data Card (Summary)
-- **Intended use:** research on dust filtering / de-noising, robustness in autonomy, mapping in adverse conditions.  
-- **Modalities:** 3D LiDAR (xyz), intensity, time; odometry (Carén).  
-- **Collection period & region:** Metropolitan Region, Chile.  
-- **Known limitations:** dust is class-imbalanced (≤ ~12% per subset); reflective/transparent materials can challenge intensity-based heuristics.  
-- **Ethics & safety:** no personally identifiable information; field sites controlled.  
-- **Contact:** YOUR_EMAIL
-
----
-
-## Recommended Tooling
-We don’t mandate specific libraries, but these are commonly used and compatible:
-
-- **Reading OS0 PCAP / building range images:** Ouster SDK  
-- **ROS bags → PCD/PLY:** `rosbag` + `pcl_ros` / `pcl_conversions` / custom extractors  
-- **Point cloud ops & visualization:** PCL, Open3D, PDAL, pyntcloud  
-- **NumPy conversion:** store points as structured arrays (`[('x',f4),('y',f4),('z',f4),('intensity',f4)]`) and a parallel boolean mask for labels
-
-> Tip: When reproducing temporal features, ensure **frame-to-frame alignment** using provided poses (Carén) before computing `m`, `Δc`, or `h`.
-
----
-
-## Baseline Splits & Evaluation (Optional)
-We provide official **train/val/test lists** in each subset’s `splits/`.  
-When reporting results, include **Accuracy**, **Precision**, **Recall**, and **F1** for the **dust** class and clearly state whether **odometry alignment** is used for temporal features.
-
----
-
-## License & Terms
-- **Code in this repo (if any):** MIT (suggested).  
-- **Data (point clouds, labels, metadata):** choose and specify one, e.g. **CC BY-NC-SA 4.0** (non-commercial, share-alike) or a custom research license.
 
 See [`LICENSE`](LICENSE) for full terms. If you need alternative terms (e.g., commercial use), contact us.
 
