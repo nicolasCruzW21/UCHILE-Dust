@@ -4,18 +4,6 @@
 
 <h1 align="center">UCHILE-Dust: A LiDAR Dust Filtering Dataset for Mining Applications</h1>
 
-<p align="center">
-  <a href="#overview">Overview</a> ·
-  <a href="#downloads">Downloads</a> ·
-  <a href="#dataset-structure">Structure</a> ·
-  <a href="#annotations--format">Annotations</a> ·
-  <a href="#subsets--statistics">Subsets & Stats</a> ·
-  <a href="#recommended-tooling">Recommended Tooling</a> ·
-  <a href="#license--terms">License</a> ·
-  <a href="#citation">Citation</a> ·
-  <a href="#contact">Contact</a>
-</p>
-
 
 ## Overview
 **UCHILE-Dust** is a curated dataset of **LiDAR point clouds under dusty conditions** for research on **dust filtering / de-noising** in mining and outdoor environments. Captures include **indoor**, **outdoor**, and **robot-mounted** scenarios with **odometry** when available. Data were used in:
