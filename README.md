@@ -16,22 +16,6 @@
   <a href="#contact">Contact</a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/YOUR_USER/uchile-dust/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/YOUR_USER/uchile-dust">
-  </a>
-  <a href="https://doi.org/YOUR_DOI">
-    <img alt="DOI" src="https://img.shields.io/badge/DOI-pending-lightgrey">
-  </a>
-  <a href="/LICENSE">
-    <img alt="License" src="https://img.shields.io/badge/data-license-TBD-blue">
-  </a>
-  <a href="#data-card">
-    <img alt="Data Card" src="https://img.shields.io/badge/data-card-green">
-  </a>
-</p>
-
----
 
 ## Overview
 **UCHILE-Dust** is a curated dataset of **LiDAR point clouds under dusty conditions** for research on **dust filtering / de-noising** in mining and outdoor environments. Captures include **indoor**, **outdoor**, and **robot-mounted** scenarios with **odometry** when available. Data were used in:
@@ -45,7 +29,7 @@
 
 ## Downloads
 
-- 🗂️ **Processed frames (per-frame point clouds):** [Link]  
+- 🗂️ **Processed frames (per-frame point clouds):** [https://drive.google.com/file/d/1sSr3hgCl_UEcZh9t2eX-1d_QqDimnwFS/view?usp=sharing]  
 
 
 
