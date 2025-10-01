@@ -53,7 +53,6 @@ If you use **UCHILE-Dust**, please cite **both** the dataset and the paper.
   title   = {UCHILE-Dust: LiDAR Dust Filtering Dataset},
   author  = {Cavieres, Bruno and Cruz, Nicolás and Ruiz-del-Solar, Javier},
   year    = {2025},
-  url     = {https://github.com/YOUR_USER/uchile-dust},
   note    = {Dataset accompanying the paper "Dust filtering in LiDAR point clouds using deep learning for mining applications"}
 }
 
