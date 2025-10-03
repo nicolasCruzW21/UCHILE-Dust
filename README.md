@@ -10,7 +10,7 @@
 <p align="center">
   <!-- 3-panel gallery of sample frames -->
   <img src="images/imagen_real_1.png" width="30%">
-  <img src="assets/pointcloud_filtrada_1.png"  width="30%">
+  <img src="assets/pointcloud_filtrada_1.png" width="30%">
   <img src="assets/pointcloud_original_1.png" width="30%">
 </p>
 
