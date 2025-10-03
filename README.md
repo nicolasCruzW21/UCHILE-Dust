@@ -9,9 +9,9 @@
 
 <p align="center">
   <!-- 3-panel gallery of sample frames -->
-  <img src="assets/sample_indoor.png" alt="Indoor dust plume sample (OS0 multi-echo)" width="30%">
-  <img src="assets/sample_outdoor.png" alt="Outdoor dust plume sample near wall" width="30%">
-  <img src="assets/sample_caren.png" alt="Carén mobile robot sequence with odometry" width="30%">
+  <img src="images/imagen_real_1.png" width="30%">
+  <img src="assets/pointcloud_filtrada_1.png"  width="30%">
+  <img src="assets/pointcloud_original_1.png" width="30%">
 </p>
 
 <p align="center">
