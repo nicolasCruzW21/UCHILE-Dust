@@ -1,9 +1,22 @@
 <p align="center">
-  <img src="/assets/teaser.png" alt="UCHILE-Dust — Dust Filtering in LiDAR Point Clouds" width="78%">
+  <!-- Hero image (replace with your actual path/filename) -->
+  <img src="assets/uchile-dust-hero.jpg"
+       alt="UCHILE-Dust — Dust Filtering in LiDAR Point Clouds"
+       width="78%">
 </p>
 
 <h1 align="center">UCHILE-Dust: A LiDAR Dust Filtering Dataset for Mining Applications</h1>
 
+<p align="center">
+  <!-- 3-panel gallery of sample frames -->
+  <img src="assets/sample_indoor.png" alt="Indoor dust plume sample (OS0 multi-echo)" width="30%">
+  <img src="assets/sample_outdoor.png" alt="Outdoor dust plume sample near wall" width="30%">
+  <img src="assets/sample_caren.png" alt="Carén mobile robot sequence with odometry" width="30%">
+</p>
+
+<p align="center">
+  <em>Example point clouds from the Indoor, Outdoor, and Carén (mobile) subsets. Colors are illustrative (e.g., by intensity/return).</em>
+</p>
 
 ## Overview
 **UCHILE-Dust** is a curated dataset of **LiDAR point clouds under dusty conditions** for research on **dust filtering / de-noising** in mining and outdoor environments. Captures include **indoor**, **outdoor**, and **robot-mounted** scenarios with **odometry** when available. Data were used in:
@@ -17,9 +30,9 @@
 
 ## Downloads
 
-- 🗂️ **Processed frames (per-frame point clouds):** [https://drive.google.com/file/d/1sSr3hgCl_UEcZh9t2eX-1d_QqDimnwFS/view?usp=sharing]  
+- 🗂️ **Processed frames (per-frame point clouds):** [https://drive.google.com/file/d/1sSr3hgCl_UEcZh9t2eX-1d_QqDimnwFS/view?usp=sharing]
 
-
+---
 
 ## Subsets & Statistics
 All captures use an **OS0** sensor. Dust is actively introduced in each recording.
@@ -32,13 +45,19 @@ All captures use an **OS0** sensor. Dust is actively introduced in each recordin
 | Exterior 2  | 13         | 1,885        | 75,820,483    | 3.6%   | PCAP   | 66 / 17 / 17   |
 | Carén (mob) | 13         | 7,089        | 234,929,532   | 8.1%   | ROSbag | 46 / 26 / 28   |
 
+<p align="center">
+  <!-- Data card / infographic -->
+  <img src="assets/uchile-dust-card.png"
+       alt="UCHILE-Dust dataset card summarizing subsets, points, and formats"
+       width="85%">
+</p>
+
 **Locations & Conditions**
 - **Interior 1/2:** AMTC Field Robotics Lab (static sensor), reflective/transparent surfaces present.
 - **Exterior 1/2:** AMTC courtyard (static sensor), open-air plumes / wall proximity.
 - **Carén:** open field/quarry (mobile robot, OS0 + odometry), dust via blower; most realistic for navigation.
 
 <a id="data-card"></a>
-
 
 See [`LICENSE`](LICENSE) for full terms. If you need alternative terms (e.g., commercial use), contact us.
 
@@ -55,4 +74,3 @@ If you use **UCHILE-Dust**, please cite **both** the dataset and the paper.
   year    = {2025},
   note    = {Dataset accompanying the paper "Dust filtering in LiDAR point clouds using deep learning for mining applications"}
 }
-
